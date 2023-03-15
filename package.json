@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-realtime-chat-app",
+  "version": "1.0.0.1",
+  "description": "Instant messaging app with Expressjs and Socket.io",
+  "main": "app.js",
+  "author": "funwi che",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.17.3",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
