@@ -19,5 +19,8 @@
   "devDependencies": {
     "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": ">=18 <19"
   }
 }
